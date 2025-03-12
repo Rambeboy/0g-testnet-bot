@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+accounts/accounts.js
+config/config.js
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db

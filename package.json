@@ -1,0 +1,30 @@
+{
+  "name": "0g-testnet-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple tool designed to automate creating smart contract in 0G Newton Testnet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "setup": "node scripts/setup.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
+  },
+  "keywords": [
+    "0g-ai-newton",
+    "0g-testnet",
+    "0g-newton",
+    "smart-contract",
+    "rambeboy"
+    ],
+  "author": "Nofan Rambe",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rambeboy/0g-testnet-bot.git"
+  },
+  "dependencies": {
+    "ethers": "^6.10.0"
+  }
+}
