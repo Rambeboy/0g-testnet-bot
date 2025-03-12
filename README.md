@@ -29,14 +29,14 @@ Simple tool designed to automate creating smart contract in 0G Newton Testnet
 ## USAGE
 
 1. Ensure you have 0GAI Testnet balance in your wallet, You can get from [Here](https://hub.0g.ai/faucet)
-2. Modify the `accounts.js` file with your wallet private key:
-```
-nano accounts/accounts.js
-```
+2. Modify the `accounts` file with your wallet private key:
+   ```bash
+   nano accounts/accounts.js
+   ```
 3. Run the script:
-```bash
-npm run start
-```
+   ```bash
+   npm run start
+   ```
 
 ## LICENSE 
 
